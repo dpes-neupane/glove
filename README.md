@@ -6,7 +6,7 @@ Implementation of [GloVe](https://nlp.stanford.edu/pubs/glove.pdf) word embeddin
 
 GloVe or Global Vectors of Word Representations is statitics based method for generating word embeddings. The idea is to use the co-occurrences counts of the target words and context words to generate the vector embeddings.
 
-It establishes how different words correlates to each other through the use of ratio of probabilities of $P_{ik} / P_{jk} $. Here, $ P_{ik} = P(k|i) = X_{ik} / X_i $ is the probability that the word $k$ appear in the context of word $i$ and same with $ P_{jk}$.
+It establishes how different words correlates to each other through the use of ratio of probabilities of $P_{ik} / P_{jk} $. Here, $P_{ik} = P(k|i) = X_{ik} / X_i$ is the probability that the word $k$ appear in the context of word $i$ and same with $P_{jk}$.
 
 An interesting aspect of GloVe method is that how it has used a simple loss function to get the embedding vectors unlike the __word2vec__ model which used a neural language model. 
 
